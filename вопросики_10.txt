@@ -24,6 +24,7 @@ __
 |   link
 |   physical
 
+
 2. Перечислите основные особенности протоколов  TCP и UDP?
 
 	На протоколы ложится задача надежности - поврежение пакета, потеря, дублирование, нарушение порядка покетов данных,
@@ -64,10 +65,10 @@ TCP - transfer control protocol - главное надежность
 5. Как устанавливается логическое соединение протокола TCP?
 
       TCP-server:			|	TCP-client:	
-acceptor - пассивный сокет		|socket.connect()
+acceptor - пассивный сокет		|   socket.connect()
 acceptor.blind(endpoint)		|
 acceptor.listen(size) - режим прослушки	|
-socket				|
+socket					|
 acceptor.accept(socket) - соединение	|
 
 
